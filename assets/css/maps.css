@@ -1,0 +1,83 @@
+.map-responsive {
+    overflow: hidden;
+    overflow: visible;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+    margin: 5px;
+}
+
+.map-responsive iframe {
+    left: 60%;
+    top: 0;
+    height: 50%;
+    width: 40%;
+    position: absolute;
+}
+
+/* #carouselExampleControls {
+    width: 55%;
+    height: 45%;
+    margin-top: auto;
+    top: -100px;
+    /* left: 50%; */
+/* }  */
+
+#carouselExampleControls {
+    top: 0;
+    margin-top: 100px;
+    padding-bottom: 53px;
+    /* bottom: 100px; */
+}
+
+@media(max-width:500px) {
+    .map-responsive {
+
+        /* dfsfd */
+        width: 100%;
+        overflow: hidden;
+        overflow: visible;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
+        margin-top: 15px;
+    }
+
+    .map-responsive iframe {
+        left: -10px;
+        top: 0;
+        margin-left: -5px;
+        height: 200px;
+        width: 350px;
+        position: absolute;
+        margin-bottom: 15px;
+        /* margin-bottom: 40px */
+    }
+
+    #carouselExampleControls {
+        margin-top: 85px !important;
+        margin-bottom: 80px !important;
+    }
+
+    #carouselExampleControls .glimpse {
+        top: 20px;
+        margin-top: 150px;
+        font-size: 1.1rem !important;
+    }
+
+    #waiting_for {
+        top: 0;
+        margin-top: -18px;
+    }
+
+    #register #but_register {
+        top: 15px !important;
+        margin-top: 10px;
+    }
+
+    #register #wantto {
+        top: 15px;
+        /* margin-top: 28px; */
+        margin-top: 3rem;
+    }
+}
